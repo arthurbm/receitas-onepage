@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -11,9 +12,19 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
 
-.recipe-content{
+#recipe-content{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 }
 
 .right-box{
@@ -26,5 +37,21 @@ h1, h2, h3, h4, h5, h6 {
 
 .brownie-img{
     /* position: absolute; */
-    width: 10vw;
+    width: 30vw;
+}
+
+.subtitle {
+    margin-top: 30px;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+li{
+    margin-top: 5px;
+}
+
+.title{
+    text-align: center;
 }

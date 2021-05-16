@@ -10,7 +10,7 @@ a {
 }
 
 body {
-    background: #f0f0f5;
+    background: rgb(255, 237, 240);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.title {
+    margin-top: 10px;
     margin-bottom: 30px;
 }
 
@@ -59,7 +60,8 @@ h1.title {
 }
 
 .card {
-    border: 1px solid black;
+    background-image: url("https://image.freepik.com/free-vector/elegant-white-background-with-shiny-lines_1017-17580.jpg");
+    border: 1px solid grey;
     border-radius: 8px;
     padding: 16px;
     margin-top: 20px;

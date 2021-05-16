@@ -1,27 +1,30 @@
-:root {
-    --title-color: #1b365d;
-    --primary-color: #34cb69;
-}
-
 * {
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    /* background: #f0f0f5; */
-    -webkit-font-smoothing: antialiased;
-}
 a {
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-    color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
 }
 
-p {
-    color: var(--title-color);
+.recipe-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+.right-box{
+    width: 40vw;
+}
+
+.left-box{
+    width: 40vw;
+}
+
+.brownie-img{
+    /* position: absolute; */
+    width: 10vw;
 }
